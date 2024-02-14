@@ -1,4 +1,4 @@
-name: Python CI
+name: CI
 
 on:
   push:
@@ -13,8 +13,6 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  BRANCH:
-    uses: vslovik/actions/.github/workflows/branch.yml@master
   CI:
     uses: vslovik/actions/.github/workflows/python.yml@master
     secrets: inherit
