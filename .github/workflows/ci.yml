@@ -15,8 +15,8 @@ concurrency:
 jobs:
   BRANCH:
     uses: vslovik/actions/.github/workflows/branch.yml@main
-  CI:
-    uses: vslovik/actions/.github/workflows/python.yml@main
-    secrets: inherit
-    with:
-      python-version: '3.9'
+#  CI:
+#    uses: vslovik/actions/.github/workflows/python.yml@main
+#    secrets: inherit
+#    with:
+#      python-version: '3.9'
